@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Antrian</title>
+    <link rel="stylesheet" href="css/antrian.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Formulir Antrian</h1>
+        <form action="proses_antrian.php" method="post">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required>
+
+            <label for="tanggal">Tanggal:</label>
+            <input type="date" id="tanggal" name="tanggal" required>
+
+            <label for="jam">Jam:</label>
+            <input type="time" id="jam" name="jam" required>
+
+            <label for="telepon">Nomor Telepon:</label>
+            <input type="tel" id="telepon" name="telepon" required>
+
+            <input type="submit" value="Ambil Antrian">
+        </form>
+        <p><a href="daftra_antrian.php">Lihat Daftar Antrian</a></p>
+    </div>
+</body>
+</html>
