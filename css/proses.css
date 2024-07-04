@@ -1,0 +1,49 @@
+/* File: style.css */
+
+/* Mengatur gaya untuk body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Latar belakang abu-abu muda */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* Mengatur gaya untuk kotak pesan */
+.message-box {
+    background-color: #fff; /* Latar belakang putih */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan ringan */
+    text-align: center;
+    width: 300px;
+    max-width: 80%;
+}
+
+/* Mengatur gaya untuk pesan teks */
+.message-box p {
+    color: #28a745; /* Warna hijau untuk teks sukses */
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Mengatur gaya untuk pesan kesalahan */
+.message-box .error {
+    color: #dc3545; /* Warna merah untuk teks error */
+}
+
+/* Mengatur gaya untuk tautan */
+.message-box a {
+    display: block;
+    margin: 10px 0;
+    color: #007bff; /* Warna biru untuk tautan */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.message-box a:hover {
+    text-decoration: underline; /* Garis bawah pada hover */
+}
